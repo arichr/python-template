@@ -3,43 +3,32 @@
 
 Python template for various projects.
 
-## For which projects..?
-This template was built upon these statements:
- * You target Python `>=3.8, <4.0`
- * You use `google` style for docstrings ([pylint on PyPi](https://pypi.org/project/pylint/))
- * You use [flake8](https://pypi.org/project/flake8/) with [wemake-python-styleguide](https://pypi.org/project/wemake-python-styleguide/)
- * You commit LF line endings (see [.pylintrc](https://github.com/arichr/python-template/blob/main/.pylintrc#L28) and [.gitattributes](https://github.com/arichr/python-template/blob/main/.gitattributes))
- * You always document your code (see [.pylintrc](https://github.com/arichr/python-template/blob/main/.pylintrc#L23))
- * 79 symbols per line is enough for you (see [.pylintrc](https://github.com/arichr/python-template/blob/main/.pylintrc#L34))
+## Template specifications
+ * Python: `>=3.8, <4.0`
+ * [wemake-python-styleguide](https://pypi.org/project/wemake-python-styleguide/) ([flake8](https://pypi.org/project/flake8/) plugin) with [pylint](https://pypi.org/project/pylint/)
+ * LF line endings are preferred
+ * 79 symbols per line is enough
 
-## What should I do next?
-I think, you should:
- * Initialize Git on your local machine
- * Make a great README
- * Change pyproject.toml ([poetry on PyPi](https://pypi.org/project/poetry/))
- * Use [codecov](https://pypi.org/project/codecov/)
-
-You may also want to do this:
- * Create `Dockerfile` (and `docker-compose.yml`)
- * Start working with [Portray](https://pypi.org/project/portray/) / [MkDocs](https://pypi.org/project/mkdocs/) / [Sphinx](https://pypi.org/project/Sphinx/) / etc.
- * Add requirements.txt and dev-requirements.txt for pip
-
-## Publishing / Deploying
- * Configure CI/CD to lint, test and check your code
- * Configure CI/CD to generate wheels as artifacts and/or publish them on PyPi
+## What's missing?
+ * A good README for your project
+ * Dependencies in pyproject.toml ([poetry on PyPi](https://pypi.org/project/poetry/))
+ * requirements.txt for users w/o Poetry
+ * Documentation ([Portray](https://pypi.org/project/portray/) / [MkDocs](https://pypi.org/project/mkdocs/) / [Sphinx](https://pypi.org/project/Sphinx/))
+ * [pytest](https://pypi.org/project/pytest/) (and [codecov](https://pypi.org/project/codecov/) CI/CD integration)
+ * [Docker](https://docker.com)
 
 ## Links
-### Linting:
+### Linting
+ * [pylint documentation](https://pylint.pycqa.org/en/latest/index.html)
  * [flake8 documentation](https://flake8.pycqa.org/en/latest/index.html)
  * [Google guidelines](https://google.github.io/styleguide/pyguide.html)
- * [pylint documentation](https://pylint.pycqa.org/en/latest/index.html)
  * [Google .pylintrc](https://google.github.io/styleguide/pylintrc)
 ### Documentation
+ * [Portray](https://timothycrosley.github.io/portray/)
  * [MkDocs](https://www.mkdocs.org/)
  * [Sphinx documentation](https://www.sphinx-doc.org/en/master/index.html)
- * [Portray](https://timothycrosley.github.io/portray/)
 ### Packaging
  * [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
 ## Contribute!
-I really appreciate any contributions to my repositories! If you know some tools, libraries that are not listed here feel free to create an issue and a PR.
+I really appreciate any contributions to my repositories! If you know some tools, libraries that are not listed here feel free to create an issue or a PR.

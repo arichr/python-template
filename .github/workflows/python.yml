@@ -1,4 +1,4 @@
-name: Python validator (main/dev)
+name: Python workflow
 
 on:
   push:
@@ -45,7 +45,7 @@ jobs:
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
           flake8 . --count --statistics
 
-      - name: Linting gophient (pylint)
+      - name: Linting (pylint)
         run: |
           source .venv/bin/activate
           pylint ${{ github.event.repository.name }}
@@ -53,8 +53,7 @@ jobs:
       - name: Testing (pytest)
         run: |
           source .venv/bin/activate
-          #pytest
-          exit 1
+          pytest
 
       - name: Linting tests (pylint)
         run: |
