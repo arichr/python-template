@@ -7,7 +7,7 @@ Python template for various projects.
  * Python: `>=3.8, <4.0`
  * [wemake-python-styleguide](https://pypi.org/project/wemake-python-styleguide/) ([flake8](https://pypi.org/project/flake8/) plugin) with [pylint](https://pypi.org/project/pylint/)
  * LF line endings are preferred
- * 79 symbols per line is enough
+ * 100 symbols per line is enough
 
 ## What's missing?
  * A good README for your project
