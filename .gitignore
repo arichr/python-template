@@ -5,6 +5,8 @@ __pycache__/
 
 # Modules' leftovers
 .pytest_cache/
+.venv/
+dist/
 venv/
 
 # Text editors, IDEs

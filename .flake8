@@ -14,7 +14,9 @@ exclude =
 
     # Modules' leftovers
     .pytest_cache/,
+    .venv/,
     venv/,
+    dist/,
 
     # Text editors, IDEs
     .vscode/
