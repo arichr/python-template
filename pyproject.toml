@@ -8,9 +8,9 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.8"
 
-[tool.poetry.dev-dependencies]
-wemake-python-styleguide = "^0.16.1"
-pylint = "^2.15.0"
+[tool.poetry.group.dev.dependencies]
+wemake-python-styleguide = "^0.17.0"
+pylint = "^2.16.1"
 
 [tool.isort]
 line_length = 100
