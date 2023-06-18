@@ -22,11 +22,11 @@ exclude =
     .vscode/
 
 ignore =
-    ; WPS - Too strict
+    # WPS - Too strict
     WPS,
-    ; S404 - Avoid dublication of a subprocess-related issue
-    S404
+    # S404, S603 - Supress 'subprocess' warnings
+    S404, S603
 
 per-file-ignores =
-    ; Use of asserts in tests is OK
+    # Use of asserts in tests is OK
     *test*.py: S101
