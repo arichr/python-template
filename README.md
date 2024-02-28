@@ -1,16 +1,16 @@
 <p align="center">
     <h1 align="center">Python Template</h1>
-    <p align="center"> Python template used in my repositories.</p>
+    <p align="center">Python template used in my repositories.</p>
 </p>
 
-> **Notice** that this template will [drop the support of Python 3.8 soon](https://github.com/arichr/arichr/wiki/Deprecation-of-Python-3.8)!
+> **Important:** [Python minimal version update](https://github.com/arichr/arichr/wiki/Python-minimal-version-update)
 
 **Features:**
 
 * Python: `>=3.8, <4.0`
-* Perform LF normalization
-* Allowed 100 symbols per line
-* [flake8](https://pypi.org/project/flake8/), [wemake-python-styleguide](https://pypi.org/project/wemake-python-styleguide/) and [pylint](https://pypi.org/project/pylint/)
+* Prefers LF
+* Allows 80 symbols/line and 100 symbols/line for docstrings
+* Uses [ruff](https://github.com/astral-sh/ruff)
 
 ## Getting started!
 
@@ -24,16 +24,14 @@
 
 ### Linting
 
- * [pylint documentation](https://pylint.pycqa.org/en/latest/index.html)
- * [flake8 documentation](https://flake8.pycqa.org/en/latest/index.html)
- * [Google guidelines](https://google.github.io/styleguide/pyguide.html) ([.pylintrc](https://google.github.io/styleguide/pylintrc))
+ * [Ruff documentation](https://docs.astral.sh/ruff/)
 
 ### Documentation
 
- * [Portray](https://timothycrosley.github.io/portray/)
  * [MkDocs](https://www.mkdocs.org/)
  * [Sphinx documentation](https://www.sphinx-doc.org/en/master/index.html)
 
 ### Packaging
 
  * [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+ * [Poetry-compatible pyproject.toml](https://python-poetry.org/docs/pyproject/)
